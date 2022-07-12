@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>MY PROJECTS</title>
+  <link rel="shortcut icon" type="image" href="img/i3.png" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="pro.css">
+
+  
+</head>
+
+<body>
+
+  <div id="preloader">
+
+  </div>
+  <section class="slider-pages">
+
+  <article class="js-scrolling__page js-scrolling__page-1 js-scrolling--active">
+    <div class="slider-page slider-page--left">
+      <div class="slider-page--skew">
+        <div class="slider-page__content">
+        </div>
+        <!-- /.slider-page__content -->
+      </div>
+      <!-- /.slider-page--skew -->
+    </div>
+    <!-- /.slider-page slider-page--left -->
+
+    <div class="slider-page slider-page--right">
+      <div class="slider-page--skew">
+        <div class="slider-page__content">
+          <h1 class="slider-page__title slider-page__title--big">
+            CANCER DETECTION USING MACHINE LEARNING
+          </h1>
+          <!-- /.slider-page__title slider-page__title--big -->
+          <h2 class="slider-page__title">
+            THIS PROJECT IS USED TO HELP THE DOCTORS TO DETECT THE DISEASE EASILY WHICH WILL HELP TO PREVENT THE PATIENT FROM THE SERIOUS DEATHS.
+          </h2>
+          <!-- /.slider-page__title -->
+          <p class="slider-page__description">
+            <a href="#" class="button">SEE MORE</a>
+          </p>
+          <!-- /.slider-page__description -->
+        </div>
+        <!-- /.slider-page__content -->
+      </div>
+      <!-- /.slider-page--skew -->
+    </div>
+    <!-- /.slider-page slider-page--right -->
+  </article>
+  <!-- /.js-scrolling__page js-scrolling__page-1 js-scrolling--active -->
+
+
+  <article class="js-scrolling__page js-scrolling__page-2">
+    <div class="slider-page slider-page--left">
+      <div class="slider-page--skew">
+        <div class="slider-page__content">
+          <h1 class="slider-page__title slider-page__title--big">
+            FAKE NEWS DETECTION USING MACHINE LEARNING
+          </h1>
+          <h2 class="slider-page__title">
+            THIS PROJECT IS USED TO HELP THE DOCTORS TO DETECT THE DISEASE EASILY WHICH WILL HELP TO PREVENT THE PATIENT FROM THE SERIOUS DEATHS.
+          </h2>
+          <!-- /.slider-page__title -->
+          <p class="slider-page__description">
+           <a href="#" class="button2">SEE MORE</a> 
+          </p>
+          <!-- /.slider-page__description -->
+        </div>
+        <!-- /.slider-page__content -->
+      </div>
+      <!-- /.slider-page--skew -->
+    </div>
+    <!-- /.slider-page slider-page--left -->
+
+    <div class="slider-page slider-page--right">
+      <div class="slider-page--skew">
+        <div class="slider-page__content">
+        </div>
+        <!-- /.slider-page__content -->
+      </div>
+      <!-- /.slider-page--skew -->
+    </div>
+    <!-- /.slider-page slider-page--right -->
+  </article>
+  <!-- /.js-scrolling__page js-scrolling__page-2 -->
+
+
+  <article class="js-scrolling__page js-scrolling__page-3">
+    <div class="slider-page slider-page--left">
+      <div class="slider-page--skew">
+        <div class="slider-page__content">
+        </div>
+        <!-- /.slider-page__content -->
+      </div>
+      <!-- /.slider-page--skew -->
+    </div>
+    <!-- /.slider-page slider-page--left -->
+
+    <div class="slider-page slider-page--right">
+      <div class="slider-page--skew">
+        <div class="slider-page__content">
+          <h1 class="slider-page__title slider-page__title--big">
+            ONLINE STORE
+          </h1>
+          <!-- /.slider-page__title slider-page__title--big -->
+          <h2 class="slider-page__title">
+            SITE NOT READY
+          </h2>
+        <!-- /.slider-page__content -->
+      </div>
+      <!-- /.slider-page--skew -->
+    </div>
+    <!-- /.slider-page slider-page--right -->
+  </article>
+  <!-- /.js-scrolling__page js-scrolling__page-3 -->
+
+</section>
+<!-- /.slider-pages -->
+  
+    <script src="pro.js"></script>
+    <script>
+			var loader;
+
+		function loadNow(opacity) {
+			if (opacity <= 0) {
+				displayContent();
+			} else {
+				loader.style.opacity = opacity;
+				window.setTimeout(function() {
+					loadNow(opacity - 0.05);
+				}, 50);
+			}
+		}
+
+		function displayContent() {
+			loader.style.display = 'none';
+			document.getElementById('content').style.display = 'block';
+		}
+
+		document.addEventListener("DOMContentLoaded", function() {
+			loader = document.getElementById('preloader');
+			loadNow(1);
+		});
+	</script>
+
+</body>
+</html>
